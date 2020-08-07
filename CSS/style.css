@@ -1,3 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+  box-sizing: border-box;
+  color: #3bba9c;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -5,15 +14,6 @@ body {
   background-image: linear-gradient(to bottom, #1a1a1d, #212126, #28282e, #2f2f38, #373741);
   width: 100%;
 }
-*{
-  margin: 0;
-  padding: 0;
-  font-family: 'Varela Round', sans-serif;
-  box-sizing: border-box;
-  color: #3bba9c;
-
-}
-
 
 html {
   margin: 0;
@@ -328,6 +328,7 @@ header .row {
 #about_scroll {
 padding-bottom: 5%;
 }
+
 .about .container {
   display: flex;
   justify-content: center;
@@ -424,6 +425,12 @@ padding-bottom: 5%;
   justify-content: center;
   text-align: center;
   display: block;
+}
+
+.skills_subtitle {
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 .section-heading h1{
@@ -661,12 +668,6 @@ padding-bottom: 5%;
 #matlab {
   top: 30%;
   left: 26%;
-}
-
-.skills_subtitle {
-  margin-bottom: 4rem;
-  font-size: 1.3rem;
-  text-align: center;
 }
 
 svg {
@@ -942,7 +943,7 @@ svg circle:nth-child(2)
 
   }
   .about .container {
-    margin-top: 10.5em;
+    margin-top: 4rem;
     padding: 0;
     width: 100%;
   }
@@ -950,13 +951,13 @@ svg circle:nth-child(2)
   .about-heading {
     text-align: center;
     position: absolute;
-    top: 110%;
+    top: 100%;
     width: 100%;
     margin-right: 0;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   .about-details {
-    margin-top: 1rem;
+    margin-top: 3rem;
     width: 100%;
   }
   .about-details p{
