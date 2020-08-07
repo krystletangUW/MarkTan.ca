@@ -947,6 +947,7 @@ svg circle:nth-child(2)
     padding: 0;
     width: 100%;
     background-color: white;
+    position: relative;
   }
 
   .about-heading {
@@ -956,7 +957,7 @@ svg circle:nth-child(2)
     width: 100%;
     margin-right: 0;
     padding-top: 3rem;
-    background-color: yellow;
+    background-color: red;
   }
 
   .about-details {
