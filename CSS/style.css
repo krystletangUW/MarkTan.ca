@@ -957,14 +957,13 @@ svg circle:nth-child(2)
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-top: -50rem;
     width: 100%;
     margin-right: 0;
     padding-top: 3rem;
     padding-right: 0;
     padding-left: 0;
     overflow-y: hidden;
-    background-color: pink;
+    background-color: blue;
   }
 
   .about-details {
