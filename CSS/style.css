@@ -75,6 +75,7 @@ img {
   cursor: pointer;
   z-index: 1000;
   transition: transform 650ms ease-out;
+  background-color: red;
 }
 
 .hamburger.open {
@@ -102,7 +103,7 @@ img {
 }
 
 .open .bar.start {
-  transform: rotate(-450deg) translateX(.48rem);
+  transform: rotate(-450deg) translateX(.45rem);
 }
 
 .bar.end {
@@ -112,7 +113,7 @@ img {
 }
 
 .open .bar.end {
-  transform: rotate(-450deg) translateX(-.48rem);
+  transform: rotate(-450deg) translateX(-.45rem);
 }
 
 .container {
@@ -964,13 +965,12 @@ svg circle:nth-child(2)
     padding-right: 0;
     padding-left: 0;
     overflow-y: hidden;
-    background-color: blue;
   }
 
   .about-details {
     width: 100%;
     margin: 0;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   .about-heading h1 {
     margin-bottom: 2.5rem;
