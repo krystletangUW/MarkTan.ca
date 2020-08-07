@@ -334,6 +334,7 @@ padding-bottom: 5%;
   justify-content: center;
   margin-top: 1.5rem;
   align-items: center;
+  margin-top: 1.5rem;
   transition-property: margin;
   transition-duration: 650ms;
   width: 82%;
@@ -947,10 +948,9 @@ svg circle:nth-child(2)
   }
   .about .container {
     padding: 0;
-    padding-top: 1rem;
+    margin-top: -1rem;
     width: 100%;
     background-color: pink;
-    margin-top: -2.6rem;
   }
   .about-heading {
     text-align: center;
@@ -961,7 +961,7 @@ svg circle:nth-child(2)
     width: 100%;
     margin-right: 0;
     padding-top: 3rem;
-    background-color: blue;
+    background-color: white;
     padding-right: 0;
     padding-left: 0;
   }
