@@ -950,7 +950,6 @@ svg circle:nth-child(2)
     padding: 0;
     margin-top: 11rem;
     width: 100%;
-    background-color: red;
   }
 
   .about-heading {
@@ -958,19 +957,21 @@ svg circle:nth-child(2)
     position: absolute;
     display: flex;
     flex-direction: column;
-    top:103%;
+    margin-top: -50rem;
     width: 100%;
     margin-right: 0;
     padding-top: 3rem;
     padding-right: 0;
     padding-left: 0;
     overflow-y: hidden;
+    background-color: pink;
   }
 
   .about-details {
     position: relative;
     width: 100%;
     margin: 0;
+    margin-top: 2rem;
   }
 
   .about-details p{
