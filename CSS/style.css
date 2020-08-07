@@ -959,6 +959,7 @@ svg circle:nth-child(2)
     flex-direction: column;
     width: 100%;
     margin-right: 0;
+    margin-bottom: 25em;
     padding-top: 3rem;
     padding-right: 0;
     padding-left: 0;
