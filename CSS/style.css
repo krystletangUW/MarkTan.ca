@@ -344,7 +344,6 @@ padding-bottom: 5%;
   text-align: center;
   text-transform: uppercase;
   line-height: 0;
-  margin-bottom: 6rem;
   margin-right: 3rem;
   padding-left: 2%;
 }
@@ -962,7 +961,6 @@ svg circle:nth-child(2)
     width: 100%;
     margin-right: 0;
     padding-top: 3rem;
-    background-color: white;
     padding-right: 0;
     padding-left: 0;
   }
