@@ -954,13 +954,11 @@ svg circle:nth-child(2)
     top: 100%;
     width: 100%;
     margin-right: 0;
-    margin-top: 3rem;
-    background-color: blue;
+    padding-top: 3rem;
   }
 
   .about-details {
-    background-color: pink;
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 100%;
   }
   .about-details p{
