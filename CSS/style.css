@@ -346,7 +346,7 @@ padding-bottom: 5%;
   line-height: 0;
   margin-bottom: 6rem;
   margin-right: 3rem;
-  padding-left: 2%
+  padding-left: 2%;
 }
 
 .about-heading h1{
@@ -371,6 +371,7 @@ padding-bottom: 5%;
 .about-details {
   margin-top: -1rem;
   width: 70%;
+  position: relative;
 
 }
 
@@ -948,9 +949,9 @@ svg circle:nth-child(2)
   }
   .about .container {
     padding: 0;
-    margin-top: -1rem;
+    margin-top: 11rem;
     width: 100%;
-    background-color: pink;
+    background-color: red;
   }
   .about-heading {
     text-align: center;
@@ -968,7 +969,6 @@ svg circle:nth-child(2)
 
   .about-details {
     position: relative;
-    margin-top: 11rem;
     width: 100%;
   }
   .about-details p{
