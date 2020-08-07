@@ -946,12 +946,12 @@ svg circle:nth-child(2)
 
   }
   .about .container {
-    margin-top: -1rem;
     padding: 0;
+    padding-top: 1rem;
     width: 100%;
-    background-color: red;
+    background-color: pink;
+    margin-top: -2.6rem;
   }
-
   .about-heading {
     text-align: center;
     position: absolute;
