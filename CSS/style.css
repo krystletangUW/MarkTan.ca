@@ -75,7 +75,7 @@ img {
   cursor: pointer;
   z-index: 1000;
   transition: transform 650ms ease-out;
-  background-color: red;
+  background-color: blue;
 }
 
 .hamburger.open {
@@ -335,7 +335,6 @@ padding-bottom: 5%;
   justify-content: center;
   margin-top: 1.5rem;
   align-items: center;
-  margin-top: 1.5rem;
   transition-property: margin;
   transition-duration: 650ms;
   width: 82%;
@@ -959,7 +958,7 @@ svg circle:nth-child(2)
     display: flex;
     flex-direction: column;
     width: 100%;
-    bottom: -8.6rem;
+    bottom: -8rem;
     margin-right: 0;
     padding-top: 3rem;
     padding-right: 0;
@@ -970,7 +969,7 @@ svg circle:nth-child(2)
   .about-details {
     width: 100%;
     margin: 0;
-    margin-top: 2rem;
+    margin-top: 2.2rem;
   }
   .about-heading h1 {
     margin-bottom: 2.5rem;
