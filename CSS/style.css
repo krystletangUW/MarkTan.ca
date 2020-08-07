@@ -958,23 +958,23 @@ svg circle:nth-child(2)
     display: flex;
     flex-direction: column;
     width: 100%;
+    bottom: -32%;
     margin-right: 0;
-    margin-bottom: 25em;
     padding-top: 3rem;
     padding-right: 0;
     padding-left: 0;
     overflow-y: hidden;
-    background-color: pink;
+    background-color: red;
   }
 
   .about-details {
-    position: relative;
     width: 100%;
     margin: 0;
     margin-top: 2rem;
   }
 
   .about-details p{
+    position: relative;
     padding-left: 2.8rem;
     padding-right: 2.8rem;
     font-size: 1rem;
