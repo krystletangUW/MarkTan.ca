@@ -961,10 +961,10 @@ svg circle:nth-child(2)
   }
 
   .about-details {
-    margin-top: 5rem;
+    margin-top: 9rem;
     width: 100%;
     height: 100%;
-    background-color: blue;
+    background-color: pink;
   }
   .about-details p{
     padding-left: 2.5rem;
