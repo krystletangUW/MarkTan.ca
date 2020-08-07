@@ -948,7 +948,7 @@ svg circle:nth-child(2)
   }
   .about .container {
     padding: 0;
-    margin-top: 11rem;
+    margin-top: 7rem;
     width: 100%;
   }
 
@@ -958,13 +958,13 @@ svg circle:nth-child(2)
     display: flex;
     flex-direction: column;
     width: 100%;
-    bottom: -32%;
+    bottom: -7.5rem;
     margin-right: 0;
     padding-top: 3rem;
     padding-right: 0;
     padding-left: 0;
     overflow-y: hidden;
-    background-color: red;
+    background-color: orange;
   }
 
   .about-details {
