@@ -4,7 +4,6 @@ body {
   overflow-x: hidden;
   background-image: linear-gradient(to bottom, #1a1a1d, #212126, #28282e, #2f2f38, #373741);
   width: 100%;
-  height: 100%;
 }
 *{
   margin: 0;
