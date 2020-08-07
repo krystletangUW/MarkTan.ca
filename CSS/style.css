@@ -943,28 +943,27 @@ svg circle:nth-child(2)
 
   }
   .about .container {
-    margin-top: -3.5rem;
+    margin-top: -1rem;
     padding: 0;
     width: 100%;
-    background-color: white;
-    position: relative;
+    background-color: red;
   }
 
   .about-heading {
     text-align: center;
     position: absolute;
-    top: 105%;
+    top: 100%;
     width: 100%;
     margin-right: 0;
     padding-top: 3rem;
-    background-color: red;
+    background-color: pink;
   }
 
   .about-details {
-    margin-top: 17rem;
+    position: relative;
+    margin-top: 11rem;
     width: 100%;
     height: 100%;
-    background-color: yellow;
   }
   .about-details p{
     padding-left: 2.5rem;
