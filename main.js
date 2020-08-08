@@ -33,6 +33,7 @@ $(document).ready(function() {
     sr.reveal('#storm', { delay: 300 });
     sr.reveal('#sustainable', { delay: 300 });
     sr.reveal('.about-heading', {});
+    sr.reveal('.about-heading2', {});
 
   /*SCROLL SKILLS*/
   sr.reveal('.skills-heading', {});

@@ -75,7 +75,7 @@ img {
   cursor: pointer;
   z-index: 1000;
   transition: transform 650ms ease-out;
-  background-color: blue;
+  background-color: pink;
 }
 
 .hamburger.open {
@@ -841,15 +841,44 @@ svg circle:nth-child(2)
     margin-left: -8%;
   }
 
-
-  .about-heading h1 {
-    font-size: 3.5rem;
-  }
-  .about-heading h6{
-    padding-top: 0;
-    margin-left: 10px
+  .about .container {
+    padding: 0;
+    margin-top: 5rem;
+    width: 100%;
   }
 
+  .about-heading {
+    display: none;
+  }
+
+  .about-heading2 {
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 1.4rem;
+    text-transform: uppercase;
+  }
+  .about-heading2 h1 {
+    font-weight: 700;
+    font-size: 3.1rem;
+    opacity: .3;
+    line-height: 1em;
+    padding-top: 1.2rem;
+  }
+  .about-details {
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+  .about-details p{
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    white-space: normal;
+    font-size: 1rem;
+  }
+  .about-heading2 h6 {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
 
 .section-heading h1 {
   font-size: 2.5rem;
@@ -870,7 +899,7 @@ svg circle:nth-child(2)
 .profile {
   width: 45%;
   margin-left: -10%;
-  margin-top: 30%;
+  margin-top: 50%;
 }
 }
 
@@ -880,7 +909,7 @@ svg circle:nth-child(2)
   }
 }
 @media screen and (min-width: 600px) {
-  .hamburger, .top-nav .nav-list .nav-link, .top-nav {
+  .hamburger, .top-nav .nav-list .nav-link, .top-nav, .about-heading2 {
     display: none;
   }
 }
@@ -946,48 +975,13 @@ svg circle:nth-child(2)
     font-size: 4vw;
 
   }
-  .about .container {
-    padding: 0;
-    margin-top: 7rem;
-    width: 100%;
-  }
 
-  .about-heading {
-    text-align: center;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    bottom: -8rem;
-    margin-right: 0;
-    padding-top: 3rem;
-    padding-right: 0;
-    padding-left: 0;
-    overflow-y: hidden;
-  }
-
-  .about-details {
-    width: 100%;
-    margin: 0;
-    margin-top: 2.2rem;
-  }
-  .about-heading h1 {
-    margin-bottom: 2.5rem;
-}
-
-  .about-details p{
-    position: relative;
-    padding-left: 2.8rem;
-    padding-right: 2.8rem;
-    font-size: 1rem;
+  .skills-heading {
+    font-size: 3.1rem;
   }
   .my-skill {
     margin-left: 2.5rem;
     margin-right: 0;
-  }
-
-  .about-heading h1,.skills-heading {
-    font-size: 3.1rem;
   }
   .section-heading h1 {
     font-size: 2rem;
@@ -997,9 +991,6 @@ svg circle:nth-child(2)
     padding: 0;
     line-height: 2.5rem;
     font-size: 1.1rem;
-  }
-  .about-heading h6 {
-    font-size: 1.5rem;
   }
 
   .timeline .timeline-container {
