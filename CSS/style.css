@@ -75,7 +75,6 @@ img {
   cursor: pointer;
   z-index: 1000;
   transition: transform 650ms ease-out;
-  background-color: pink;
 }
 
 .hamburger.open {
@@ -868,6 +867,7 @@ svg circle:nth-child(2)
     width: 100%;
     margin: 0;
     display: block;
+    margin-top: -4rem;
   }
   .about-details p{
     padding-right: 2.5rem;
